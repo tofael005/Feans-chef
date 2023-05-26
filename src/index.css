@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ui-container {
+    @apply max-w-[1240px] mx-auto px-3
+}
+.active {
+    @apply underline text-[#d77002] font-bold
+}
